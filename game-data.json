@@ -1,0 +1,15 @@
+{
+    "character_attributes": [
+        "Health",
+        "Strength",
+        "Skill",
+        "Stamima",
+        "Speed"
+    ],
+    "prompts": {
+        "name": {
+            "prompt": "What is your name?",
+            "options": []
+        }
+    }
+}

@@ -1,0 +1,16 @@
+.hide {
+    display: none!important;
+}
+
+main {
+    margin: 5px;
+}
+
+.bottom-static {
+    display: flex;
+}
+
+#manual-action {
+    width: 100%;
+}
+

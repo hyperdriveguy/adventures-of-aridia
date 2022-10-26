@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="game.css">
+    <title>Adventures of Aridia</title>
+</head>
+<body>
+    <header>
+        <h1>Adventures of Aridia</h1>
+    </header>
+    <main>
+        <section id="main-adventure">
+            <article id="adventure-text"></article>
+            <article class="bottom-static">
+                <input type="text" id="manual-action">
+                <button id="submit-action">Submit</button>
+                <!-- Fill with specific actions as they become available -->
+                <div id="adventure-actions"></div>
+            </article>
+        </section>
+        <section id="inventory" class="hide">
+            <h2>Inventory</h2>
+            <ul></ul>
+        </section>
+        <section id="character-stats" class="hide">
+            <h2>Character stats</h2>
+            <article id="character-overview" class="hide"></article>
+            <article id="character-attributes" class="hide">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Attribute</th>
+                            <th>Description</th>
+                            <th>Level</th>
+                        </tr>
+                    </thead>
+                    <tbody id="character-points-list"></tbody>
+                </table>
+            </article>
+        </section>
+    </main>
+    <script type="text/javascript" src="game.js"></script>
+</body>
+</html>
